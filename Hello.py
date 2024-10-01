@@ -1,6 +1,5 @@
-# Open the file in read mode
+# Open the file README.md in read mode
 with open('README.md', 'r') as file:
-    # Read the file line by line
+    # Loop through each line in the file and print it
     for line in file:
-        # Output each line
         print(line.strip())
