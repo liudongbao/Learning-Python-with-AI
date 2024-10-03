@@ -1,6 +1,6 @@
 How to Self-study Python with the Help of Artificial Intelligence
 
-Step 1: Ask AI (such as ChatGPT) questions about self-studying Python, such as: How to Set Up Python IDE
+Step 1: Ask AI (such as ChatGPT) questions about self-studying Python, such as: How to Install Python
 
 Step 2: Practice according to the answers from ChatGPT
 
