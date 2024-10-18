@@ -3,7 +3,7 @@
 # if age >= 18:
 #     print("You are eligible to vote.")
 
-# score = 1.1
+# score = 85
 
 # if score >= 90:
 #     print("Grade: A")
@@ -14,7 +14,7 @@
 # else:
 #     print("Grade: F")
 
-# temperature = 29
+# temperature = 35
 
 # if temperature > 30 and temperature < 40:
 #     print("It's a hot day.")
@@ -23,7 +23,7 @@
 # else:
 #     print("The weather is moderate.")
 
-num = -10
+num = 10
 
 if num > 0:
     print("The number is positive.")
