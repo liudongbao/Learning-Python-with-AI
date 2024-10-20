@@ -19,38 +19,38 @@ student = {
 
 # # Accessing the major
 major = student["major"]
-print(f"Major: {major}")  # Output: Major: Computer Science
+#print(f"Major: {major}")  # Output: Major: Computer Science
 
 # # Using the get() method
 age = student.get("age")
-print(f"Age: {age}")  # Output: Age: 23
+#print(f"Age: {age}")  # Output: Age: 23
 
 # # If key doesn't exist, return None
 grade = student.get("grade")
-print(f"Grade: {grade}")  # Output: Grade: None
+#print(f"Grade: {grade}")  # Output: Grade: None
 
 # # Adding a new key-value pair
 student["graduation_year"] = 2025
-print(student)
+#print(student)
 
 # # Updating an existing key
 student["age"] = 24
-print(student)
+#print(student)
 
 
 # # Using del
 del student["major"]
-print(student)
+#print(student)
 
 # # Using pop()
 age = student.pop("age")
-print(f"Removed age: {age}")
-print(student)
+#print(f"Removed age: {age}")
+#print(student)
 
 # # Using popitem()
 last_item = student.popitem()
-print(f"Removed last item: {last_item}")
-print(student)
+#print(f"Removed last item: {last_item}")
+#print(student)
 
 # Dictionary of a fruit inventory
 # fruits = {
@@ -73,7 +73,10 @@ print(student)
 
 
 student["graduation_year"] = 2025
-print(student)
+#print(student)
+
+
+
 # Using keys(), values(), and items()
 print(student.keys())    # Output: dict_keys(['name', 'graduation_year'])
 print(student.values())  # Output: dict_values(['Alice', 2025])
