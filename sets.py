@@ -1,5 +1,5 @@
 # # Example 1: Creating a set
-# my_set = {1, 2, 3, 4, 5}
+my_set = {1, 2, 3, 4, 5}
 # print(my_set)
 
 # # Example 2: Using set() to create a set
@@ -19,21 +19,28 @@
 
 set1 = {1, 2, 3}
 set2 = {3, 4, 5}
-union_set = set1 | set2  # or set1.union(set2)
-print(union_set)  # Output: {1, 2, 3, 4, 5}
+# union_set = set1 | set2  # or set1.union(set2)
+# print(union_set)  # Output: {1, 2, 3, 4, 5}
 
-intersection_set = set1 & set2  # or set1.intersection(set2)
-print(intersection_set)  # Output: {3}
+# intersection_set = set1 & set2  # or set1.intersection(set2)
+# print(intersection_set)  # Output: {3}
 
-difference_set = set1 - set2  # or set1.difference(set2)
-print(difference_set)  # Output: {1, 2}
+# difference_set = set1 - set2  # or set1.difference(set2)
+# print(difference_set)  # Output: {1, 2}
 
-sym_diff_set = set1 ^ set2  # or set1.symmetric_difference(set2)
-print(sym_diff_set)  # Output: {1, 2, 4, 5}
+# sym_diff_set = set1 ^ set2  # or set1.symmetric_difference(set2)
+# print(sym_diff_set)  # Output: {1, 2, 4, 5}
 
+print(len(my_set))  # Output: 5
+
+my_set.clear()
+print(my_set)  # Output: set()
+
+print(2 in set1)  # Output: True
+print(10 in set1)  # Output: False
 
 # Removing duplicates using a set
-my_list = [1, 2, 2, 3, 4, 4, 5]
-my_set = set(my_list)  # Convert to set to remove duplicates
-unique_list = list(my_set)  # Convert back to list
-print(unique_list)  # Output: [1, 2, 3, 4, 5]
+# my_list = [1, 2, 2, 3, 4, 4, 5]
+# my_set = set(my_list)  # Convert to set to remove duplicates
+# unique_list = list(my_set)  # Convert back to list
+# print(unique_list)  # Output: [1, 2, 3, 4, 5]
